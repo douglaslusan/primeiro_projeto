@@ -60,7 +60,7 @@ namespace xadrez
                 }
                 pos.Coluna = pos.Coluna + 1;
             }
-            // E
+            // O
             pos.DefinirValores(posicao.Linha, posicao.Coluna - 1);
             while (tab.PosicaoValida(pos) && podeMover(pos))
             {
